@@ -24,4 +24,3 @@ class Doctor
     @appointment.collect {|appointment| appointment.patient}
   end
 end
-  
