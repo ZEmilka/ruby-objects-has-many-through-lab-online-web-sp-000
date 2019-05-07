@@ -12,10 +12,11 @@ class Artist
     @@all
   end
 
-  def add_song(song)
-    @songs<<song
+  def new_song(name,genre)
+    @song=song
     song.artist=self
   end
+    
 
   def songs
     @songs
