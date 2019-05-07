@@ -7,6 +7,10 @@ class Genre
     @songs=[]
   end
 
+  def self.all
+    @@all
+  end
+
   def add_song(song)
     @song<<song
     song.genre=self
